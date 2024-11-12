@@ -1,0 +1,547 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="-egriy1#yONfZL|y7gh:" x="-1110" y="-490">
+    <mutation component_type="Form" is_generic="false" instance_name="Balok" event_name="Initialize"></mutation>
+    <field name="COMPONENT_SELECTOR">Balok</field>
+    <statement name="DO">
+      <block type="component_method" id="XTSo7t2l1n@}ur#FCMNp">
+        <mutation component_type="MakeroidSideMenuLayout" method_name="AddItem" is_generic="false" instance_name="Side_Menu_Layout1"></mutation>
+        <field name="COMPONENT_SELECTOR">Side_Menu_Layout1</field>
+        <value name="ARG0">
+          <block type="text" id="|.,0/fAGvEo27(p]d2YR">
+            <field name="TEXT">home</field>
+          </block>
+        </value>
+        <value name="ARG1">
+          <block type="text" id="gUM*VaX*rdA-.HA?xJ,t">
+            <field name="TEXT">homee.png</field>
+          </block>
+        </value>
+        <value name="ARG2">
+          <block type="logic_boolean" id="Ko3!_smh*2.Q^2CSGm`#">
+            <field name="BOOL">TRUE</field>
+          </block>
+        </value>
+        <value name="ARG3">
+          <block type="logic_boolean" id="0:D5)IWCUmfAhq/(BU1%">
+            <field name="BOOL">FALSE</field>
+          </block>
+        </value>
+        <value name="ARG4">
+          <block type="math_number" id=".YgoEJA.28@gX/R)p$X{">
+            <field name="NUM">1</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_method" id="n3LQoGChkX}}wMvR8juJ">
+            <mutation component_type="MakeroidSideMenuLayout" method_name="AddItem" is_generic="false" instance_name="Side_Menu_Layout1"></mutation>
+            <field name="COMPONENT_SELECTOR">Side_Menu_Layout1</field>
+            <value name="ARG0">
+              <block type="text" id="Y#S^EW{X(Ci^R(n=LdHP">
+                <field name="TEXT">Kalkulator</field>
+              </block>
+            </value>
+            <value name="ARG1">
+              <block type="text" id="MqG/_h7?qFYu;D;}a{AQ">
+                <field name="TEXT">kalk.png</field>
+              </block>
+            </value>
+            <value name="ARG2">
+              <block type="logic_boolean" id=":m:*%;P6Gp{GX;^L6;a2">
+                <field name="BOOL">TRUE</field>
+              </block>
+            </value>
+            <value name="ARG3">
+              <block type="logic_boolean" id="RMGX^wl{0SM:EtUu[JCf">
+                <field name="BOOL">FALSE</field>
+              </block>
+            </value>
+            <value name="ARG4">
+              <block type="math_number" id="1PAg,C;p7!s~l15{Mux`">
+                <field name="NUM">2</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_method" id="FNn,R=F(m_Irf?,mw3Rk">
+                <mutation component_type="MakeroidSideMenuLayout" method_name="AddItem" is_generic="false" instance_name="Side_Menu_Layout1"></mutation>
+                <field name="COMPONENT_SELECTOR">Side_Menu_Layout1</field>
+                <value name="ARG0">
+                  <block type="text" id="K0HmAcFn#f{jK9A{CE#4">
+                    <field name="TEXT">Perhitungan Balok</field>
+                  </block>
+                </value>
+                <value name="ARG1">
+                  <block type="text" id="=s9O$cIAZ?n-PZQSgDjs">
+                    <field name="TEXT">beam.png</field>
+                  </block>
+                </value>
+                <value name="ARG2">
+                  <block type="logic_boolean" id="pE7{RI[tO[n,m5Ewr9#0">
+                    <field name="BOOL">TRUE</field>
+                  </block>
+                </value>
+                <value name="ARG3">
+                  <block type="logic_boolean" id="5/X)y2*`(m%pVjBsu+YP">
+                    <field name="BOOL">FALSE</field>
+                  </block>
+                </value>
+                <value name="ARG4">
+                  <block type="math_number" id=":of1G@[l_gJI.hO!Tg@f">
+                    <field name="NUM">3</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_method" id="}2onCLuC.MW=h8G}CuMM">
+                    <mutation component_type="MakeroidSideMenuLayout" method_name="AddItem" is_generic="false" instance_name="Side_Menu_Layout1"></mutation>
+                    <field name="COMPONENT_SELECTOR">Side_Menu_Layout1</field>
+                    <value name="ARG0">
+                      <block type="text" id="`Y=!5]ZAAI:EiCHR]XnT">
+                        <field name="TEXT">Perhitungan Jajar Genjang</field>
+                      </block>
+                    </value>
+                    <value name="ARG1">
+                      <block type="text" id="lh]{$/ch{kqmDu{.lDOs">
+                        <field name="TEXT">jargen.png</field>
+                      </block>
+                    </value>
+                    <value name="ARG2">
+                      <block type="logic_boolean" id="?y^vML1dGRQOv)uQ+m[+">
+                        <field name="BOOL">TRUE</field>
+                      </block>
+                    </value>
+                    <value name="ARG3">
+                      <block type="logic_boolean" id="N.OIeLd:wvg9]#m^baeB">
+                        <field name="BOOL">FALSE</field>
+                      </block>
+                    </value>
+                    <value name="ARG4">
+                      <block type="math_number" id="x;`.dV{AUHJDj!PsU7gL">
+                        <field name="NUM">4</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="component_method" id="/^d@=SXb]eOj!T~nDB/v">
+                        <mutation component_type="MakeroidSideMenuLayout" method_name="AddItem" is_generic="false" instance_name="Side_Menu_Layout1"></mutation>
+                        <field name="COMPONENT_SELECTOR">Side_Menu_Layout1</field>
+                        <value name="ARG0">
+                          <block type="text" id="l$Er~vbafAN6?wq:+$MQ">
+                            <field name="TEXT">Perhitungan Persegi</field>
+                          </block>
+                        </value>
+                        <value name="ARG1">
+                          <block type="text" id="YEbe?}Q|nD:W$-!*{X:~">
+                            <field name="TEXT">persegi.png</field>
+                          </block>
+                        </value>
+                        <value name="ARG2">
+                          <block type="logic_boolean" id="5ypfl.Us?27$=4qN1:9q">
+                            <field name="BOOL">TRUE</field>
+                          </block>
+                        </value>
+                        <value name="ARG3">
+                          <block type="logic_boolean" id="5!964t6kpH43THx3{P!j">
+                            <field name="BOOL">FALSE</field>
+                          </block>
+                        </value>
+                        <value name="ARG4">
+                          <block type="math_number" id="[#!:{#uahbs9KhQZ=$oe">
+                            <field name="NUM">5</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="component_method" id="ub8t5%+[gDFFh6;;%#%)">
+                            <mutation component_type="MakeroidSideMenuLayout" method_name="AddItem" is_generic="false" instance_name="Side_Menu_Layout1"></mutation>
+                            <field name="COMPONENT_SELECTOR">Side_Menu_Layout1</field>
+                            <value name="ARG0">
+                              <block type="text" id="[LY?7^ETDdL7H3;!S[kB">
+                                <field name="TEXT">Perhitungan Segitiga</field>
+                              </block>
+                            </value>
+                            <value name="ARG1">
+                              <block type="text" id="Ip]^7Snw66HHk|i4*5j(">
+                                <field name="TEXT">segitiga.png</field>
+                              </block>
+                            </value>
+                            <value name="ARG2">
+                              <block type="logic_boolean" id="hj#H^v?h2fK)$hdEI$B!">
+                                <field name="BOOL">TRUE</field>
+                              </block>
+                            </value>
+                            <value name="ARG3">
+                              <block type="logic_boolean" id="Mv@%)Rdhhywa?.?tM%^B">
+                                <field name="BOOL">FALSE</field>
+                              </block>
+                            </value>
+                            <value name="ARG4">
+                              <block type="math_number" id="~haW/#$$sOt[P%.T~jIP">
+                                <field name="NUM">6</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="component_method" id="VsBhcZY**5r7pPo_iNy(">
+                                <mutation component_type="MakeroidSideMenuLayout" method_name="AddItem" is_generic="false" instance_name="Side_Menu_Layout1"></mutation>
+                                <field name="COMPONENT_SELECTOR">Side_Menu_Layout1</field>
+                                <value name="ARG0">
+                                  <block type="text" id="en{Z3-PriNOc+.}3ErqP">
+                                    <field name="TEXT">Perhitungan Trapesium</field>
+                                  </block>
+                                </value>
+                                <value name="ARG1">
+                                  <block type="text" id="/[@M9Id0f*_XzA$K-PYH">
+                                    <field name="TEXT">trap.png</field>
+                                  </block>
+                                </value>
+                                <value name="ARG2">
+                                  <block type="logic_boolean" id="So0@w.3SAD4.^FKAuy~v">
+                                    <field name="BOOL">TRUE</field>
+                                  </block>
+                                </value>
+                                <value name="ARG3">
+                                  <block type="logic_boolean" id="nMrIeGqEv7?kgGK]t}_p">
+                                    <field name="BOOL">FALSE</field>
+                                  </block>
+                                </value>
+                                <value name="ARG4">
+                                  <block type="math_number" id="V*)Pdcf(3K~1L|=Uf/;w">
+                                    <field name="NUM">7</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="HSmZfgMa]3w;mYY)3}kO" x="-466" y="-470">
+    <mutation component_type="Button" is_generic="false" instance_name="Button1" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button1</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="Jx7PP?|78$!U`ySRNfy{">
+        <value name="SCREEN">
+          <block type="helpers_screen_names" id="HLj]E|T7F:EJAo3q4|SO">
+            <field name="SCREEN">Home</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="mCal/+iN^5ly434so%=R" x="-466" y="-390">
+    <mutation component_type="Button" is_generic="false" instance_name="Button2" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button2</field>
+    <statement name="DO">
+      <block type="component_set_get" id="V27rG8IoZ_,zOee+5R[b">
+        <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label2"></mutation>
+        <field name="COMPONENT_SELECTOR">Label2</field>
+        <field name="PROP">Text</field>
+        <value name="VALUE">
+          <block type="math_multiply" id="75#PV`DBK^-?ND1y)Wev">
+            <mutation items="3"></mutation>
+            <value name="NUM0">
+              <block type="component_set_get" id="2Qk_EKgxC1%%,VRzK{yu">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="Text_Box1"></mutation>
+                <field name="COMPONENT_SELECTOR">Text_Box1</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+            <value name="NUM1">
+              <block type="component_set_get" id="^?_xq};o}C$_syD-#Q(i">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="Text_Box2"></mutation>
+                <field name="COMPONENT_SELECTOR">Text_Box2</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+            <value name="NUM2">
+              <block type="component_set_get" id="4__!pk8*_gX#2og^/6=0">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="Text_Box3"></mutation>
+                <field name="COMPONENT_SELECTOR">Text_Box3</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="C#v!kr,[K$5}Il`G|8Y[" x="-466" y="-290">
+    <mutation component_type="Button" is_generic="false" instance_name="Button3" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button3</field>
+    <statement name="DO">
+      <block type="component_set_get" id="}Z`c8J_]YVq/^FdB8UyC">
+        <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="Text_Box1"></mutation>
+        <field name="COMPONENT_SELECTOR">Text_Box1</field>
+        <field name="PROP">Text</field>
+        <value name="VALUE">
+          <block type="math_number" id="qJc#jz@=qN:HtPZQxlmu">
+            <field name="NUM">0</field>
+          </block>
+        </value>
+        <next>
+          <block type="component_set_get" id="5=n+f%)D:60um6[2#sh7">
+            <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="Text_Box2"></mutation>
+            <field name="COMPONENT_SELECTOR">Text_Box2</field>
+            <field name="PROP">Text</field>
+            <value name="VALUE">
+              <block type="math_number" id="8|)SQseKf/mV5wNHrQ@4">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id=";#da:KsL`~itD+XIw[yw">
+                <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="Text_Box3"></mutation>
+                <field name="COMPONENT_SELECTOR">Text_Box3</field>
+                <field name="PROP">Text</field>
+                <value name="VALUE">
+                  <block type="math_number" id="!qA(iu2`?toeGWGr/w`l">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="Su_=vr.Hp(Qyjki)k^~J">
+                    <mutation component_type="Label" set_or_get="set" property_name="Text" is_generic="false" instance_name="Label2"></mutation>
+                    <field name="COMPONENT_SELECTOR">Label2</field>
+                    <field name="PROP">Text</field>
+                    <value name="VALUE">
+                      <block type="math_number" id="01%-e=j(gjH7_6VP!qKw">
+                        <field name="NUM">0</field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id=",ehoO,]VS|Yfd!}MCXyz" x="-470" y="-90">
+    <mutation component_type="MakeroidSideMenuLayout" is_generic="false" instance_name="Side_Menu_Layout1" event_name="OnMenuItemClick"></mutation>
+    <field name="COMPONENT_SELECTOR">Side_Menu_Layout1</field>
+    <statement name="DO">
+      <block type="controls_if" id="TXw1L0Gv,f5wn}M1Y)w;">
+        <value name="IF0">
+          <block type="logic_compare" id="l6kF{4FR;`|ojHN7!:44">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="lexical_variable_get" id="+RP@?0AocUm9L.tS43~K">
+                <mutation>
+                  <eventparam name="title"></eventparam>
+                </mutation>
+                <field name="VAR">title</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="text" id="D_(8sl2qdWc4uX0C/Qgm">
+                <field name="TEXT">home</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_openAnotherScreen" id="motHIvUM,HOo(V%_c^Au">
+            <value name="SCREEN">
+              <block type="helpers_screen_names" id="O:WwxDU*a,m(BBD#~r-R">
+                <field name="SCREEN">Home</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <next>
+          <block type="controls_if" id="RbD#;3ej{Q7v!{:Twxt/">
+            <value name="IF0">
+              <block type="logic_compare" id="IK0U(iV-=l,x:fgum_9M">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="lexical_variable_get" id="8mJ4bdWe]mgPm}]dh]J,">
+                    <mutation>
+                      <eventparam name="title"></eventparam>
+                    </mutation>
+                    <field name="VAR">title</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="text" id="?1I[w^%iaNEbnH%?oFH=">
+                    <field name="TEXT">Kalkulator</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="controls_openAnotherScreen" id="9T;Z-=j|ZIN*q*/oO?/.">
+                <value name="SCREEN">
+                  <block type="helpers_screen_names" id="MkfJpf*?;XgHF[nrF+mi">
+                    <field name="SCREEN">Kalkulator</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+            <next>
+              <block type="controls_if" id=".Rm*G,b9F3e]t#Q+b8r.">
+                <value name="IF0">
+                  <block type="logic_compare" id="+XP@T5^5_DOqKb0mCWv!">
+                    <field name="OP">EQ</field>
+                    <value name="A">
+                      <block type="lexical_variable_get" id="PT,GjP{$2VNV_c,_,c45">
+                        <mutation>
+                          <eventparam name="title"></eventparam>
+                        </mutation>
+                        <field name="VAR">title</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="text" id="2TKxH[EW|Dp5)LcdSm}e">
+                        <field name="TEXT">Perhitungan Balok</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO0">
+                  <block type="controls_openAnotherScreen" id="GO,+cxTg#z[!N83SRo6~">
+                    <value name="SCREEN">
+                      <block type="helpers_screen_names" id="zaHxWs/cs?]DgJl,aIvw">
+                        <field name="SCREEN">Balok</field>
+                      </block>
+                    </value>
+                  </block>
+                </statement>
+                <next>
+                  <block type="controls_if" id="^SJNS?Ki~3=F@}F`;7|1">
+                    <value name="IF0">
+                      <block type="logic_compare" id="o140RtRHg|`x6R.VIl=O">
+                        <field name="OP">EQ</field>
+                        <value name="A">
+                          <block type="lexical_variable_get" id="!W9*K}E550.NCK=q=$oI">
+                            <mutation>
+                              <eventparam name="title"></eventparam>
+                            </mutation>
+                            <field name="VAR">title</field>
+                          </block>
+                        </value>
+                        <value name="B">
+                          <block type="text" id="}yJ/4l*`qU*eRx6~QHzT">
+                            <field name="TEXT">Perhitungan Jajar Genjang</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <statement name="DO0">
+                      <block type="controls_openAnotherScreen" id="EaT{fCz4m][y~HU:Xnz?">
+                        <value name="SCREEN">
+                          <block type="helpers_screen_names" id="P4yzm`[a%sRkKt[L{{)B">
+                            <field name="SCREEN">JarGen</field>
+                          </block>
+                        </value>
+                      </block>
+                    </statement>
+                    <next>
+                      <block type="controls_if" id="G_~V$-WJ.2*?VM2!T:*d">
+                        <value name="IF0">
+                          <block type="logic_compare" id="9-z)!.:FVOIG@%*J[g-4">
+                            <field name="OP">EQ</field>
+                            <value name="A">
+                              <block type="lexical_variable_get" id="7C/MDm6tSaJR%Gr-)V!5">
+                                <mutation>
+                                  <eventparam name="title"></eventparam>
+                                </mutation>
+                                <field name="VAR">title</field>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="text" id="FRG:oV2OQio6~Sa{{,PM">
+                                <field name="TEXT">Perhitungan Persegi</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <statement name="DO0">
+                          <block type="controls_openAnotherScreen" id="x+.!m4H#vZX,WA}bR}PK">
+                            <value name="SCREEN">
+                              <block type="helpers_screen_names" id="xeV{O./eEg,)*ihE72S^">
+                                <field name="SCREEN">Persegi</field>
+                              </block>
+                            </value>
+                          </block>
+                        </statement>
+                        <next>
+                          <block type="controls_if" id="qMzyp[NJWyW.s^*TuXPS">
+                            <value name="IF0">
+                              <block type="logic_compare" id="YRO}f-}C|ymQW.*gc75n">
+                                <field name="OP">EQ</field>
+                                <value name="A">
+                                  <block type="lexical_variable_get" id="RJJo*^N8yl,?!V0PbTgY">
+                                    <mutation>
+                                      <eventparam name="title"></eventparam>
+                                    </mutation>
+                                    <field name="VAR">title</field>
+                                  </block>
+                                </value>
+                                <value name="B">
+                                  <block type="text" id=".pU9{k(,f!PKl^7w+fhU">
+                                    <field name="TEXT">Perhitungan Segitiga</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </value>
+                            <statement name="DO0">
+                              <block type="controls_openAnotherScreen" id="I03OKTjPA,lXVh+1K8fy">
+                                <value name="SCREEN">
+                                  <block type="helpers_screen_names" id="S0Bvcy6KtcWt6mw2V*oR">
+                                    <field name="SCREEN">Segitiga</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </statement>
+                            <next>
+                              <block type="controls_if" id="FRmUlOcSw5cA-0xb,OO7">
+                                <value name="IF0">
+                                  <block type="logic_compare" id=")Lll).||YYjc?f/8Xwq*">
+                                    <field name="OP">EQ</field>
+                                    <value name="A">
+                                      <block type="lexical_variable_get" id="nmC=5Yiq_?X;@=PLpB{_">
+                                        <mutation>
+                                          <eventparam name="title"></eventparam>
+                                        </mutation>
+                                        <field name="VAR">title</field>
+                                      </block>
+                                    </value>
+                                    <value name="B">
+                                      <block type="text" id=":S+2KCuHJ;.3XYgqxK|[">
+                                        <field name="TEXT">Perhitungan Trapesium</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </value>
+                                <statement name="DO0">
+                                  <block type="controls_openAnotherScreen" id="Mu?hYI!^.jT`;uIoD!Y~">
+                                    <value name="SCREEN">
+                                      <block type="helpers_screen_names" id="B[9C;QCPMT:@F;HkQ0Uy">
+                                        <field name="SCREEN">Trapesium</field>
+                                      </block>
+                                    </value>
+                                  </block>
+                                </statement>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="242" language-version="34"></yacodeblocks>
+</xml>

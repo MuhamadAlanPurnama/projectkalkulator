@@ -1,0 +1,4 @@
+#|
+$JSON
+{"authURL":["creator.kodular.io"],"YaVersion":"242","Source":"Form","Properties":{"$Name":"Screen1","$Type":"Form","$Version":"44","AboutScreenBackgroundColor":"&H9B444343","AlignHorizontal":"3","AlignVertical":"2","AppId":"6747401231532032","AppName":"UTS","ReceiveSharedText":"none","Title":"Screen1","TitleVisible":"False","Uuid":"0","$Components":[{"$Name":"Image1","$Type":"Image","$Version":"6","Height":"100","Width":"100","Picture":"Kal.png","Uuid":"1834277380"},{"$Name":"Label1","$Type":"Label","$Version":"10","FontBold":"True","FontTypeface":"5","Text":"Calculating","Uuid":"-1553789441"},{"$Name":"Space1","$Type":"SpaceView","$Version":"1","Height":"100","Width":"-2","Uuid":"-1028252160"},{"$Name":"Circular_Progress1","$Type":"MakeroidCircularProgress","$Version":"1","Uuid":"-194036060"},{"$Name":"Clock1","$Type":"Clock","$Version":"4","TimerAlwaysFires":"False","TimerEnabled":"False","TimerInterval":"2000","Uuid":"1822225069"}]}}
+|#

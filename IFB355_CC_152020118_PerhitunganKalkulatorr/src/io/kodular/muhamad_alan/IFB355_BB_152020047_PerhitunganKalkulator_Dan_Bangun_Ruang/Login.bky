@@ -1,0 +1,84 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="/$q?_7{,_CVVKIJ{WUCg" x="-10" y="-150">
+    <mutation component_type="Button" is_generic="false" instance_name="Button1" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button1</field>
+    <statement name="DO">
+      <block type="controls_if" id="lON`)e{Ct)OT+X-i)+,p">
+        <value name="IF0">
+          <block type="logic_operation" id="J61wbx+InI4reuyOqQDP">
+            <mutation items="2"></mutation>
+            <field name="OP">AND</field>
+            <value name="A">
+              <block type="logic_compare" id="6%{4R`6bkf:%Z-uy@bF,">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="component_set_get" id="$(wD/If_Ke5L#dPh]`}2">
+                    <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="Text_Box1"></mutation>
+                    <field name="COMPONENT_SELECTOR">Text_Box1</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="text" id="iH)@N{H5?`i4)%}AuLBe">
+                    <field name="TEXT">alan</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="logic_compare" id="/m#([91{WmYF5V=^l1i@">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="component_set_get" id="O[t[z8iUJlhxkOEGz|[X">
+                    <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="Text_Box2"></mutation>
+                    <field name="COMPONENT_SELECTOR">Text_Box2</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="text" id="Pq]?Dxh2R3F.*s7=S~;^">
+                    <field name="TEXT">152020121</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="controls_openAnotherScreen" id="2M8abh~]#v{I9N+#,i*[">
+            <value name="SCREEN">
+              <block type="helpers_screen_names" id="P0@)L|WTWp,jnDSYmM,,">
+                <field name="SCREEN">Home</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <next>
+          <block type="component_method" id="`jXwReecAq}Ts;EJ*na@">
+            <mutation component_type="Notifier" method_name="ShowAlert" is_generic="false" instance_name="Notifier1"></mutation>
+            <field name="COMPONENT_SELECTOR">Notifier1</field>
+            <value name="ARG0">
+              <block type="text" id="#y8#j-n@%)6p|{t821gc">
+                <field name="TEXT">Username atau Password Salah</field>
+              </block>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="C9E:h8VrMdmZ6oZB_DX]" x="-10" y="70">
+    <mutation component_type="Label" is_generic="false" instance_name="Label2" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Label2</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="OHwmx^ZBr^DUf9tH2_;P">
+        <value name="SCREEN">
+          <block type="helpers_screen_names" id=")L3w*{MY4]A|;u:~c(uj">
+            <field name="SCREEN">Registrasi</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="242" language-version="34"></yacodeblocks>
+</xml>

@@ -1,0 +1,150 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="component_event" id="OPvI]]wS(jg3|AG9mM}L" x="-510" y="-530">
+    <mutation component_type="Button" is_generic="false" instance_name="Button1" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Button1</field>
+    <statement name="DO">
+      <block type="controls_if" id="id].IIVksu|qK1LOX}!L">
+        <mutation elseif="1" else="1"></mutation>
+        <value name="IF0">
+          <block type="logic_or" id="4+T0e+M$:+Kz8j{a4d_;">
+            <mutation items="2"></mutation>
+            <field name="OP">OR</field>
+            <value name="A">
+              <block type="math_compare" id="-z{m-4n4Rma./#avK/Pi">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="component_set_get" id="Bc)(!1%@C(de9j[FT}`^">
+                    <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="Text_Box1"></mutation>
+                    <field name="COMPONENT_SELECTOR">Text_Box1</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="text" id="?6F!#]PQ8?DC]i$4CtL?">
+                    <field name="TEXT"></field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_compare" id="D+/p[7Fl_0~D/8*J|[uN">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="component_set_get" id="Dpdf?5td9|b0(~g7j6Dz">
+                    <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="Text_Box2"></mutation>
+                    <field name="COMPONENT_SELECTOR">Text_Box2</field>
+                    <field name="PROP">Text</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="text" id="*:F;hbC!tC{^m_x#us6M">
+                    <field name="TEXT"></field>
+                  </block>
+                </value>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="component_method" id="-.^t?2SBSjw$v|t4+dK{">
+            <mutation component_type="Notifier" method_name="ShowAlert" is_generic="false" instance_name="Notifier1"></mutation>
+            <field name="COMPONENT_SELECTOR">Notifier1</field>
+            <value name="ARG0">
+              <block type="text" id="HF@1:so6YfzS`sVckYQQ">
+                <field name="TEXT">Data Harap DI ISI</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <value name="IF1">
+          <block type="math_compare" id="+DoKD*$YRchr+9bQm/Oo">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="component_set_get" id="S0%#$Rn0TfMe=}])YVNs">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="Text_Box2"></mutation>
+                <field name="COMPONENT_SELECTOR">Text_Box2</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="component_set_get" id="1^O+}Jgm37eJybsz9QBJ">
+                <mutation component_type="TextBox" set_or_get="get" property_name="Text" is_generic="false" instance_name="Text_Box3"></mutation>
+                <field name="COMPONENT_SELECTOR">Text_Box3</field>
+                <field name="PROP">Text</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO1">
+          <block type="component_method" id="^l0a6XBV)FF#rF)Whnuv">
+            <mutation component_type="Notifier" method_name="ShowAlert" is_generic="false" instance_name="Notifier1"></mutation>
+            <field name="COMPONENT_SELECTOR">Notifier1</field>
+            <value name="ARG0">
+              <block type="text" id="a2mRgqr~Vu+Gj.k{ZH(p">
+                <field name="TEXT">Berhasil Daftar</field>
+              </block>
+            </value>
+            <next>
+              <block type="controls_openAnotherScreen" id="m3WB[;M~M({WKB9H0yPw">
+                <value name="SCREEN">
+                  <block type="helpers_screen_names" id="W)UJ#8HGHEP7.yPJ+j`0">
+                    <field name="SCREEN">Home</field>
+                  </block>
+                </value>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="component_method" id="V(Y(~iCd{ft_Xh|p~e~H">
+            <mutation component_type="Notifier" method_name="ShowAlert" is_generic="false" instance_name="Notifier1"></mutation>
+            <field name="COMPONENT_SELECTOR">Notifier1</field>
+            <value name="ARG0">
+              <block type="text" id="Vwp,uUz%gHPklt$[}.c%">
+                <field name="TEXT">Harap Masukan Password Yang Sama</field>
+              </block>
+            </value>
+            <next>
+              <block type="component_set_get" id="k?C)ulVt23[v_cvV@Jv#">
+                <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="Text_Box2"></mutation>
+                <field name="COMPONENT_SELECTOR">Text_Box2</field>
+                <field name="PROP">Text</field>
+                <value name="VALUE">
+                  <block type="text" id=";E^l(OE}%W@7$b*W9{S!">
+                    <field name="TEXT"></field>
+                  </block>
+                </value>
+                <next>
+                  <block type="component_set_get" id="PXk!p=-_t.Pi/hKN%+gL">
+                    <mutation component_type="TextBox" set_or_get="set" property_name="Text" is_generic="false" instance_name="Text_Box3"></mutation>
+                    <field name="COMPONENT_SELECTOR">Text_Box3</field>
+                    <field name="PROP">Text</field>
+                    <value name="VALUE">
+                      <block type="text" id="]5e.ixhgv%zp*wSb/XCn">
+                        <field name="TEXT"></field>
+                      </block>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </statement>
+      </block>
+    </statement>
+  </block>
+  <block type="component_event" id="sYCuzdiXwNTw0M%NvpgX" x="-450" y="-70">
+    <mutation component_type="Label" is_generic="false" instance_name="Label2" event_name="Click"></mutation>
+    <field name="COMPONENT_SELECTOR">Label2</field>
+    <statement name="DO">
+      <block type="controls_openAnotherScreen" id="P]sR)I=ffo!QRdwO(t{r">
+        <value name="SCREEN">
+          <block type="helpers_screen_names" id="M,el[Z_{VegsM~7bxjBb">
+            <field name="SCREEN">Login</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <yacodeblocks ya-version="242" language-version="34"></yacodeblocks>
+</xml>
